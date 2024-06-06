@@ -40,6 +40,12 @@ function jogar(){
         "8","9","10","K","J","Q"];
     let valorcj= cj[0].slice(0,1);
     let valorcr= cr[0].slice(0,1);
+    let naipej = cj[0].slice(1,1);
+    let naiper = cr[0].slice(1,1);
+    alert(naipej);
+    alert(naiper);
+    
+    
     alert(valorcj);
     alert(valorcr);
     let pontosj= ordem.indexOf(valorcj);

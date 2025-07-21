@@ -1,4 +1,7 @@
+// a função acordajoe e apenas um teste agora vc precisa
+// modificar o duplo-clique no Joe para ele executar a função jogar()
 function acordajoe() {
+
     let resposta; // criando 
     //a variavel resposta
     resposta=prompt("Joe, lets play...");
@@ -7,7 +10,7 @@ function acordajoe() {
        jogar();
        // jogo
      } else {
-        alert("mensagem do coracao");
+        alert("xi o joe não sabe como jogar, olhe a programação no codigo.js e ajuste para o jogo funcionar");
      } ;
 }
 
@@ -44,8 +47,6 @@ function jogar(){
     let naiper = cr[0].slice(1,1);
     alert(naipej);
     alert(naiper);
-    
-    
     alert(valorcj);
     alert(valorcr);
     let pontosj= ordem.indexOf(valorcj);
@@ -57,7 +58,13 @@ function jogar(){
     }else{
         alert("o robot ganhou kkkk");
     }
-
+/* esta rotina não está alterando os objetos de tela para mostrar
+as cartas que foram sorteadas, o desafio agora e ao inves de ficar só
+usando comandos de alert fazer as modificações nos elementos de tela existentes
+Boa Sorte... Tudo que vc precisa em termos de imagens estão em ./assets
+vc deve criar divs para representar a carta do jogador e a carta do robot
+teste a logica da rotina e veja se não tem algum engano na lógica, cuidado com as pegadinhas
+*/
 
 }
     
